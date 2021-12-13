@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+/*-----Nav css ------*/
+nav{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}:
+
+.nav-logo {
+    position:absolute;
+}
+.nav-logo img{
+    margin: 0;
+    width: 2000px;
+    height: 150px;
+
+}
+ul{
+    float: right;
+    margin:30px 60px;
+}
+/*
+li{
+    display: inline-block;
+    padding:20px 30px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}*/
+/*------- Header ----------*/
+    
+ul a {
+    margin-bottom:  20px;
+    padding: 20px;
+}
+footer{
+    position:absolute;
+    height:150px;
+    width: 100%;
+    bottom: 0;
+}
+li{
+    display:block;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
