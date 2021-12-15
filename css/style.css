@@ -1,49 +1,78 @@
-*{
-    margin: 0;
-    box-sizing:border-box;
-}
 /*-----Nav css ------*/
 nav{
-    height: 100px;
+    height: 150px;
     width: 100%;
     margin-top: 10px;
-}:
+    background-image: url("../img/Header2-img.png");
+    background-size: cover;
+    box-sizing: border-box;
+}
 
 .nav-logo {
-    position:absolute;
-}
-.nav-logo img{
+    float: left;
     margin: 0;
-    width: 2000px;
-    height: 150px;
-
+    /* width: 100%; */
+    /* height: 100%; */
 }
+.nav-text {
+    padding: 20px; 
+    height: 50px; 
+    font-family:unset;
+    font-size: 30px;
+    }
+
 ul{
     float: right;
-    margin:30px 60px;
+    margin: 20px 30px;
+    /* position: middle; */
+ }
+ ul a {
+    margin-top: 20px;
+    padding: 20px 30px;     
+} 
+ 
+
+/*-----------Header-------*/
+header{
+    background-position-x: left;
+    position: absolute;
+    margin-left: 40px;
+    height: 200px;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    
 }
-/*
-li{
-    display: inline-block;
-    padding:20px 30px;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-}*/
-/*------- Header ----------*/
-    
-ul a {
-    margin-bottom:  20px;
-    padding: 20px;
-}
-footer{
+/* header h2{
+    background-position-x: left;
+    position: absolute;
+    margin-left: 60px;
+    height: 300px;
+    padding-left: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    
+
+} */
+/* .search-container 
+  {
+    float: right;
+  } 
+  .search-container button {
+    float:right;
+    margin-right: 30px;
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .nav-text .search-container button:hover {
+    background: rgb(182, 171, 171);
+  } */
+  
+/*------ footer----*/
+footer {
     position:absolute;
     height:150px;
     width: 100%;
     bottom: 0;
-}
-li{
-    display:block;
-    padding: 5px 10px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-}
+    background-color: rgb(225, 227, 236);
+
+   }
